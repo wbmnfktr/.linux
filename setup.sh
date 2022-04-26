@@ -23,22 +23,16 @@ sudo systemctl start sshd.service
 # Base-devel needed for more advanced setups
 echo "Installing base-devel"
 sudo pacman -S --noconfirm
-  \ base-devel
+\ base-devel
 
 # Multitools for managing dotfiles and others
 echo "Installing git and stow"
-sudo pacman -S --noconfirm
-  \ stow
+sudo pacman -S --noconfirm stow
 
 # Installing all other needed DEV tools
 # Neovim
 echo "Installing DEV Tools"
-sudo pacman -S --noconfirm
-  \ git
-  \ neovim
-  \ python-pynvim
-  \ nodejs
-  \ yarn
+sudo pacman -S --noconfirm git neovim python-pynvim nodejs yarn
 
 # Qutebrowser
 echo "Installing Qutebrowser and Adblocker"
