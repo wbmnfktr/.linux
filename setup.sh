@@ -51,3 +51,9 @@ sudo pacman -S --noconfirm ufw gufw
 # Installing NEOFETCH
 echo "Installing NEOFETCH"
 sudo pacman -S --noconfirm neofetch
+
+
+# Move to home and show NEOFETCH
+cd ~
+echo "Everything done so far... "
+neofetch
