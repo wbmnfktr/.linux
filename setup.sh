@@ -5,13 +5,18 @@
 # .ssh and check your access rights
 
 
+# TMP is perfect!
+# Is TMP perfect?
+
+
 # Update all mirrors and check for updates
+echo "Updating all mirrors"
 sudo pacman -Syyu
 
 # Nost important
 # SSH
 echo "Installing SSH Server"
-pacman -S openssh
+sudo pacman -S openssh
 sudo systemctl enable sshd.service
 sudo systemctl start sshd.service
 
