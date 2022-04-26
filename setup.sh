@@ -9,6 +9,7 @@
 # Is TMP perfect?
 
 
+clear
 # Update all mirrors and check for updates
 echo "Updating all mirrors"
 sudo pacman -Syyu
