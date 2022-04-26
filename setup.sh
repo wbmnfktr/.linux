@@ -54,6 +54,8 @@ echo "Installing NEOFETCH"
 sudo pacman -S --noconfirm neofetch
 
 
+clear
+cd $HOME
 # Move to home and show NEOFETCH
 cd ~
 echo "Everything done so far... "
