@@ -22,8 +22,7 @@ sudo systemctl start sshd.service
 
 # Base-devel needed for more advanced setups
 echo "Installing base-devel"
-sudo pacman -S --noconfirm
-\ base-devel
+sudo pacman -S --noconfirm base-devel
 
 # Multitools for managing dotfiles and others
 echo "Installing git and stow"
@@ -36,26 +35,19 @@ sudo pacman -S --noconfirm git neovim python-pynvim nodejs yarn
 
 # Qutebrowser
 echo "Installing Qutebrowser and Adblocker"
-sudo pacman -S --noconfirm
-  \ qutebrowser
-  \ python-adblock
+sudo pacman -S --noconfirm qutebrowser python-adblock
 
 # Libre Office, Thunderbird
 echo "Installing Office Suite"
-sudo pacman -S --noconfirm
-  \ libreoffice-fresh
+sudo pacman -S --noconfirm libreoffice-fresh
 # Filezilla
 echo "Installing FTP/SFTP Client"
-sudo pacman -S --noconfirm
-  \ filezilla
+sudo pacman -S --noconfirm filezilla
 
 # Firewall ufw gufw
 echo "Installing Firewall"
-sudo pacman -S --noconfirm
-  \ ufw
-  \ gufw
+sudo pacman -S --noconfirm ufw gufw
 
 # Installing NEOFETCH
 echo "Installing NEOFETCH"
-sudo pacman -S --noconfirm
-  \ neofetch
+sudo pacman -S --noconfirm neofetch
